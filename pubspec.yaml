@@ -1,0 +1,51 @@
+name: vibekey_ai
+description: "VibeKey AI - A premium AI-powered mobile keyboard application."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  # State Management
+  provider: ^6.1.1
+
+  # AI & Networking
+  http: ^1.2.0
+  cached_network_image: ^3.3.0
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+  # UI & Animations
+  flutter_animate: ^4.5.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # Emoji Picker
+  emoji_picker_flutter: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
